@@ -5,7 +5,7 @@ from sys import argv
 script, dirname = argv
 print ('asdfghjkl;',argv)
 
-subdirectories = os.listdir(dirname)[:5]
+subdirectories = os.listdir(dirname)[:7]
 
 print (subdirectories)
 
@@ -16,6 +16,7 @@ print(subdirectories)
 #   2)KNN
 #   3)randomForest
 #   4)GradientBoosting
+
 #   5)Extra Trees
 
 #SVM classifier used:
