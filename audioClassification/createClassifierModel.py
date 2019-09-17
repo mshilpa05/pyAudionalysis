@@ -5,7 +5,7 @@ from sys import argv
 script, dirname = argv
 print ('asdfghjkl;',argv)
 
-subdirectories = os.listdir(dirname)[:7]
+subdirectories = os.listdir(dirname)[:14]
 
 print (subdirectories)
 
